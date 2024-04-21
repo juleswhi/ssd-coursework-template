@@ -1,3 +1,5 @@
+using AS_SSD_Coursework.Views;
+
 namespace YOUR_APP_NAME;
 
 internal static class Program
@@ -6,7 +8,6 @@ internal static class Program
     static void Main()
     {
         ApplicationConfiguration.Initialize();
-
-        // Start<form1>();
+        Application.Run(new Form1());
     }
 }

@@ -33,11 +33,16 @@ Remember to adhere to Windows Forms naming conventions, forms should be called `
 Navigate to `Program.cs` and find the following line:
 
 ```cs
-// Start<form1>();
+Application.Run(new Form1());
 ```
-Uncomment this line and replace `form1` with the name of your form. 
+Replace `Form1` with the name of your new form. 
 
 Next, go to the namespace in `Program.cs` and change it to your application name.
+It should look like this:
+
+```
+namespace YOUR_APP_NAME;
+```
 
 If you want to, you can change the solution name aswell, and even the default namespace name.
 

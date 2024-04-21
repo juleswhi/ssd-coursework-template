@@ -12,4 +12,8 @@
     <None Include="AS_SSD_Coursework.sln" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="SSDCourseworkTooling" Version="1.0.2.3" />
+  </ItemGroup>
+
 </Project>
